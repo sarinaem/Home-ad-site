@@ -583,6 +583,51 @@ body {
     gap: 10px; */
 }
 
+.Testimonials h3{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+    color: var(--color-text);
+}
+.Testimonials p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(0, 9, 41, 1);
+    margin: 16px 24px 48px 24px;
+    text-align: center;
+}
+.Testimonials-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.Testimonials-content_text {
+    font-size: 1.25rem;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;    
+}
 
 
+.author {
+    color: rgba(0, 9, 41, 1);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+
+.author span{
+    color: #6C727F;
+}
+
+
+.Testimonials-contant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
