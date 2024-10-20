@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "PlusJakartaSans-" ;
+    src: url("../fonts/PlusJakartaSans-Bold.ttf");
+    font-weight: 700;
+    font-style: bold;
+}
+
+
+@font-face {
+    font-family: "PlusJakartaSans" ;
+    src: url("../fonts/PlusJakartaSans-Light.ttf");
+    font-weight: 300;
+    font-style: light;
+}
+
+
+@font-face {
+    font-family: "PlusJakartaSans" ;
+    src: url("../fonts/PlusJakartaSans-ExtraBold.ttf");
+    font-weight: 900;
+    font-weight: bolder;
+}
+
+
+@font-face {
+    font-family: "PlusJakartaSans" ;
+    src: url("../fonts/PlusJakartaSans-Medium.ttf");
+    font-weight: 600;
+}
+
+
+
+@font-face {
+    font-family: "Mulish" ;
+    src: url("../fonts/PlusJakartaSans-Regular.ttf") format(".ttf");
+    font-weight: 400;
+}
+
+
+

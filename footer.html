@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assest/css/style.css" />
+    <style>
+        footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 10px;
+}
+
+.logo-column {
+  flex: 1;
+}
+
+.sub-column {
+  padding: 5px 0;
+}
+
+/* برای نمایش دسکتاپ */
+@media (min-width: 768px) {
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-column {
+    flex: 1;
+  }
+}
+
+/* برای نمایش موبایل */
+@media (max-width: 768px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .footer-column {
+    grid-column: span 1;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <!-- <footer>
+      <div class="footer-section">
+        <div class="logo">
+          <img src="./assest/img/logo-mobile.png" alt="logo" />
+          <p class="text-logo">Estatery</p>
+        </div>
+        <div class="detail-about-home">
+          <div class="sell-buy-home-section">
+            <div>21</div>
+            <div>21</div>
+          </div>
+          <div>
+            <div>22</div>
+            <div>22</div>
+          </div>
+          <div>
+            <div>22</div>
+            <div>22</div>
+          </div>
+        </div>
+      </div>
+      <div class="last-of-part-footer">
+        <p>©2021 Estatery. All rights reserved</p>
+        <div class="social-media">
+          <img class="social-media-logo" src="./assest/img/facebook.png" alt="facebook" />
+          <img class="social-media-logo" src="./assest/img/instagram 1.png" alt="instagram" />
+          <img class="social-media-logo" src="./assest/img/twitter 1.png" alt="twitter" />
+          <img class="social-media-logo"
+            src="./assest/img/linkedin 1.png"
+            alt=linkedin"
+          />
+        </div>
+      </div>
+    </footer> -->
+    <footer>
+        <div class="footer-container">
+          <div class="footer-column logo-column">
+            <img src="logo.png" alt="Logo" />
+          </div>
+          <div class="footer-column">
+            <div class="sub-column">ستون ۱.۱</div>
+            <div class="sub-column">ستون ۱.۲</div>
+          </div>
+          <div class="footer-column">
+            <div class="sub-column">ستون ۲.۱</div>
+            <div class="sub-column">ستون ۲.۲</div>
+          </div>
+          <div class="footer-column">
+            <div class="sub-column">ستون ۳.۱</div>
+            <div class="sub-column">ستون ۳.۲</div>
+          </div>
+        </div>
+      </footer>
+      
+
+</body>
+</html>
+\
+
+
+
+
+<div class="box-search-location">
+  <span>
+    <span>Location</span>
+    <span>Barcelona, Spain</span>
+  </span>
+  <span>|</span>
+  <span>
+    <span>When</span>
+    <span>Select Move-in Date <img src="./assest/img/calender.png" alt=""></span>
+  </span>
+</div>
+
+
+
+<div class="location-home-section">
+  <img class="location-home-section-img" src="./assest/img/rent-home-1.png" alt="" />
+  <div class="detail-home">
+    <span class="price">
+      <span>$2,095</span>
+      <span>/month</span>
+    </span>
+    <h4>Palm Harbor</h4>
+    <p>Highland Lake, FL</p>
+    <div>
+      <span> </span>
+    </div>
+  </div>
+</div>
+
+.location-home-section-img{
+  width: 300px;
+  height: 200px;
+  margin-left: 8px;
+}
