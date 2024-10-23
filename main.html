@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <style>
+        .main-box-header {
+            display: flex;
+            flex-direction: row-reverse;
+            
+        }
+        .main-img-home {
+            background-image: url(./assest/img/Frame\ 14074.png);
+            background-size: 704px;
+
+            width: 100%;
+            position: relative;
+        }
+        .main-images {
+            background-color: #fff;
+            /* width: 27%; */
+            width: 23.7vw;
+            margin-left: 16px;
+            margin-top: 88px;
+            border-radius: 8px;
+            border: 1.5px solid #F0EFFB;
+        }
+        .main-mini-img {
+            width: 16vw;
+            position: absolute;
+            right: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="header-mobile">
+      <div class="logo">
+        <img src="./assest/img/logo-mobile.png" alt="logo" />
+        <p class="text-logo">Estatery</p>
+      </div>
+      <div class="hamburger-line">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="header">
+        <div class="login">
+          <button class="btn-primary">Sign up</button>
+          <button class="btn-secend">Login</button>
+        </div>
+        <div class="nav">
+          <ul class="nav-list">
+            <li><a href="#">Rent</a></li>
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Sell</a></li>
+            <li class="nav-list_children">
+              <a href="#">
+                <span>Manage Property</span>
+                <img src="./assest/img/down.svg" alt="down-icon" />
+              </a>
+            </li>
+            <li class="nav-list_children">
+              <a href="#"
+                ><span>Resources</span>
+                <img src="./assest/img/down.svg" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main-box-header">
+      <div class="main-image">
+        <img src="./assest/img/Frame 14074.png" alt="way" />
+      </div>
+      <div>
+        <!-- <div class="main-content">
+          <h2 class="main-content__heading">
+            Buy, rent, or sell your property easily
+          </h2>
+          <p class="main-content__text">
+            A great platform to buy, sell, or even rent your properties
+            without any commisions.
+          </p>
+        </div> -->
+        <div class="main-box-header">
+          <div class="main-img-home">
+              <div class="main-images">
+                  <div>
+                      <img
+                        class=""
+                        src="./assest/img/pexels-binyamin-mellish.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="detail-home">
+                        <div class="price">
+                          <span>$2,700</span>
+                          <span class="month-price">/month</span>
+                          <h4 class="price-title">Beverly Springfield</h4>
+                          <p class="price-text">Highland Lake, FL</p>
+                        </div>
+                        <div></div>
+                        <span class="icons-detail-home">
+                          <span class="icon-detail-home">
+                            <img src="./assest/img/Bed.png" alt="bed-icon" />
+                            <span>3</span>
+                          </span>
+                          <span class="icon-detail-home">
+                            <img src="./assest/img/Bath@2x.png" alt="Bath-icon" />
+                            <span>2</span>
+                          </span>
+                          <span class="icon-detail-home">
+                            <img
+                              src="./assest/img/Square Meters.png"
+                              alt="Square-meters-icon"
+                            />
+                            <span>5x7 m²</span>
+                          </span>
+                      </div>
+              </div>
+          </div>
+          <div>
+              <div class="main-content">
+                  <h2 class="main-content__heading">
+                    Buy, rent, or sell your property easily
+                  </h2>
+                  <p class="main-content__text">
+                    A great platform to buy, sell, or even rent your properties
+                    without any commisions.
+                  </p>
+              </div>
+              <div class="model-box">
+                  <div class="box box-searching">
+                    <div class="box-model">
+                      <button class="boxlinks">Rent</button>
+                      <button class="boxlinks">Buy</button>
+                      <button class="boxlinks">Sell</button>
+                    </div>
+                    <div>
+                      <div class="box-selector">
+                        <div class="search-location">
+                          <input type="search" placeholder="Search location" />
+                          <div class="img-box-selector">
+                            <img src="./assest/img/search.svg" alt="search-icon" />
+                          </div>
+                        </div>
+                        <div class="box-search-find-home">
+                          <div class="location">
+                            <p>Location</p>
+                            <span>Barcelona, Spain</span>
+                          </div>
+                          <div>|</div>
+                          <div class="when-time">
+                            <p>When</p>
+                            <span class="select-date"
+                              >Select Move-in Date
+                              <img src="./assest/img/calender.png" alt=""
+                            /></span>
+                          </div>
+                          <div>|</div>
+                          <button class="btn-browse">Browse Properties</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="statistics">
+                    <div class="statistics-line"></div>
+                    <span class="statistics-detail">
+                      <span>50k+</span>
+                      <span class="statistics-rent">renters</span>
+                    </span>
+                    <div class="statistics-line"></div>
+                    <span class="statistics-detail">
+                      <span>10k+</span>
+                      <span class="statistics-rent">properties</span>
+                    </span>
+                  </div>
+                </div> 
+            </div>                
+             
+
+        <div class="model-box">
+          <div class="box box-searching">
+            <div class="box-model">
+              <button class="boxlinks">Rent</button>
+              <button class="boxlinks">Buy</button>
+              <button class="boxlinks">Sell</button>
+            </div>
+            <div>
+              <div class="box-selector">
+                <div class="search-location">
+                  <input type="search" placeholder="Search location" />
+                  <div class="img-box-selector">
+                    <img src="./assest/img/search.svg" alt="search-icon" />
+                  </div>
+                </div>
+                <div class="box-search-find-home">
+                  <div class="location">
+                    <p>Location</p>
+                    <span>Barcelona, Spain</span>
+                  </div>
+                  <div>|</div>
+                  <div class="when-time">
+                    <p>When</p>
+                    <span class="select-date"
+                      >Select Move-in Date
+                      <img src="./assest/img/calender.png" alt=""
+                    /></span>
+                  </div>
+                  <div>|</div>
+                  <button class="btn-browse">Browse Properties</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="statistics">
+            <div class="statistics-line"></div>
+            <span class="statistics-detail">
+              <span>50k+</span>
+              <span class="statistics-rent">renters</span>
+            </span>
+            <div class="statistics-line"></div>
+            <span class="statistics-detail">
+              <span>10k+</span>
+              <span class="statistics-rent">properties</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+     
+
+              <!-- 
+        <div class="main-box-header">
+        
+          <div>
+            <div class="main-content">
+              <h2 class="main-content__heading">
+                Buy, rent, or sell your property easily
+              </h2>
+              <p class="main-content__text">
+                A great platform to buy, sell, or even rent your properties
+                without any commisions.
+              </p>
+            </div>
+            <div class="model-box">
+              <div class="box box-searching">
+                <div class="box-model">
+                  <button class="boxlinks">Rent</button>
+                  <button class="boxlinks">Buy</button>
+                  <button class="boxlinks">Sell</button>
+                </div>
+                <div>
+                  <div class="box-selector">
+                    <div class="search-location">
+                      <input type="search" placeholder="Search location" />
+                      <div class="img-box-selector">
+                        <img src="./assest/img/search.svg" alt="search-icon" />
+                      </div>
+                    </div>
+                    <div class="box-search-find-home">
+                      <div class="location">
+                        <p>Location</p>
+                        <span>Barcelona, Spain</span>
+                      </div>
+                      <div>|</div>
+                      <div class="when-time">
+                        <p>When</p>
+                        <span class="select-date"
+                          >Select Move-in Date
+                          <img src="./assest/img/calender.png" alt=""
+                        /></span>
+                      </div>
+                      <div>|</div>
+                      <button class="btn-browse">Browse Properties</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="statistics">
+                <div class="statistics-line"></div>
+                <span class="statistics-detail">
+                  <span>50k+</span>
+                  <span class="statistics-rent">renters</span>
+                </span>
+                <div class="statistics-line"></div>
+                <span class="statistics-detail">
+                  <span>10k+</span>
+                  <span class="statistics-rent">properties</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div> -->
+       
+</body>
+</html>
+
+
+
+
+
+
+
+<!--   <header>
+        <div class="header-mobile">
+          <div class="logo">
+            <img src="./assest/img/logo-mobile.png" alt="logo" />
+            <p class="text-logo">Estatery</p>
+          </div>
+          <div class="hamburger-line">
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="header">
+            <div class="login">
+              <button class="btn-primary">Sign up</button>
+              <button class="btn-secend">Login</button>
+            </div>
+            <div class="nav">
+              <ul class="nav-list">
+                <li><a href="#">Rent</a></li>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">Sell</a></li>
+                <li class="nav-list_children">
+                  <a href="#">
+                    <span>Manage Property</span>
+                    <img src="./assest/img/down.svg" alt="down-icon" />
+                  </a>
+                </li>
+                <li class="nav-list_children">
+                  <a href="#"
+                    ><span>Resources</span>
+                    <img src="./assest/img/down.svg" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="main-box-header">
+          <div class="main-image">
+            <img src="./assest/img/Frame 14074.png" alt="way" />
+          </div>
+          <div>
+            <div class="main-content">
+              <h2 class="main-content__heading">
+                Buy, rent, or sell your property easily
+              </h2>
+              <p class="main-content__text">
+                A great platform to buy, sell, or even rent your properties
+                without any commisions.
+              </p>
+            </div>
+            <div class="model-box">
+              <div class="box box-searching">
+                <div class="box-model">
+                  <button class="boxlinks">Rent</button>
+                  <button class="boxlinks">Buy</button>
+                  <button class="boxlinks">Sell</button>
+                </div>
+                <div>
+                  <div class="box-selector">
+                    <div class="search-location">
+                      <input type="search" placeholder="Search location" />
+                      <div class="img-box-selector">
+                        <img src="./assest/img/search.svg" alt="search-icon" />
+                      </div>
+                    </div>
+                    <div class="box-search-find-home">
+                      <div class="location">
+                        <p>Location</p>
+                        <span>Barcelona, Spain</span>
+                      </div>
+                      <div>|</div>
+                      <div class="when-time">
+                        <p>When</p>
+                        <span class="select-date"
+                          >Select Move-in Date
+                          <img src="./assest/img/calender.png" alt=""
+                        /></span>
+                      </div>
+                      <div>|</div>
+                      <button class="btn-browse">Browse Properties</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="statistics">
+                <div class="statistics-line"></div>
+                <span class="statistics-detail">
+                  <span>50k+</span>
+                  <span class="statistics-rent">renters</span>
+                </span>
+                <div class="statistics-line"></div>
+                <span class="statistics-detail">
+                  <span>10k+</span>
+                  <span class="statistics-rent">properties</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        </header>
+      <div class="main">
+        <div class="main-box">
+          <div>
+            <div class="main-text">
+              <h2>The new way to find your new home</h2>
+              <p>
+                Find your dream place to live in with more than 10k+ properties
+                listed.
+              </p>
+            </div>
+            <div class="main-box-detail">
+              <div class="main-detail">
+                <img
+                  class="icon"
+                  src="./assest/img/return-rate.png"
+                  alt="return-rate"
+                />
+                <div>
+                  <p class="rate-number">7.4%</p>
+                  <p class="rate-text">Property Return Rate</p>
+                </div>
+              </div>
+              <div class="main-detail">
+                <img class="icon" src="./assest/img/sell.png" alt="sell" />
+                <div>
+                  <p class="rate-number">3,856</p>
+                  <p class="rate-text">Property in Sell & Rent</p>
+                </div>
+              </div>
+              <div class="main-detail">
+                <img
+                  class="icon"
+                  src="./assest/img/Transactions.png"
+                  alt="transactions"
+                />
+                <div>
+                  <p class="rate-number">2,540</p>
+                  <p class="rate-text">Daily Completed Transactions</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box-img">
+            <img class="box-img-home" src="./assest/img/home.png" alt="" />
+            <img
+              class="box-img-home-desktop"
+              src="./assest/img/home-site-desctop.png"
+              alt=""
+            />
+          </div>
+        </div> -->
