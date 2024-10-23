@@ -84,11 +84,13 @@ body {
     height: 48px;
     background-color: var(--color-main);
     color: var(--color-text-btn);
-    border-radius: 8px;
     border: none;
     font-weight: 700;
     font-size: 1rem;
-    margin-right: 70px;
+    /* margin-right: 70px; */
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px 0px 0px 0px;
+    text-wrap: nowrap;
 }
 .btn-secend {
     width: 92px;
@@ -567,6 +569,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .testimonials h3{
@@ -768,11 +771,7 @@ body {
     flex-direction: row;
     margin-left: 24px;
 }
-.flex-main-footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 
 
 hr {
@@ -840,6 +839,10 @@ hr {
      backdrop-filter: blur(80px);
      flex-shrink: 0;
    }
+   .header-mobile {
+    margin-left: -25px;
+    justify-content: left;
+   }
    .main-box-header {
     display: flex;
     flex-direction: row-reverse;
@@ -874,7 +877,7 @@ hr {
     position: absolute;
     left: 5%;
     right: 5%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     
 }
 .box-selector {
@@ -924,11 +927,7 @@ hr {
     width: 16px;
     height: 16px;
 }
-    .main-content__text {
-      text-align: left;  
-      margin-top: 32px;
- 
-     }
+
       .main-content__heading {
           font-size: 4rem;
           text-align: left;
@@ -1030,7 +1029,9 @@ hr {
 
   .location-home__text-wrapper {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-right: 5rem;
+    align-items: end;
 
   }
   .location-home-sections {
@@ -1038,15 +1039,14 @@ hr {
 
   }
 
-  .location-home-section {
+  /* .location-home-section {
     margin-bottom: 80px;
-}
+} */
 
 .main-content__text {
     text-align: left;  
-    margin-top: 32px;
-    margin-left: 3rem;
-
+    margin-top: 32px;   
+       
    }
    /* .main-box-header {
     display: flex;
@@ -1089,11 +1089,20 @@ hr {
     left: 9rem;
     top: 2rem;
 }
+
 .main-mini-img {
     width: 16vw;
     position: absolute;
     right: 5px;
 }
+.product-card {
+    width: 22%;
+    background-color: #fff;
+    border: 1.5px solid #7065F0
+
+}
+
+/* border: 1.5px solid #7065F0 */
 
 
 
@@ -1106,7 +1115,10 @@ hr {
   }
   
   .flex-main-footer {
-    display: flex;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
 }
 
 .flex-footer {
